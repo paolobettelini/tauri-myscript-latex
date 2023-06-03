@@ -1,3 +1,5 @@
+import iink from "iink-js";
+
 const editorElement = document.getElementById('editor');
 const resultRenderElement = document.getElementById('result');
 const resultLatexElement = document.getElementById('result-latex');

@@ -4,11 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "mkdir -p dist/scripts && cp -R src/* dist && cp -R node_modules/iink-js/dist dist/scripts/iink-js"
+    "prebuild": "npm install",
+    "build": "webpack --config webpack.config.js"
   },
   "author": "Paolo Bettelini",
   "license": "ISC",
   "dependencies": {
     "iink-js": "^2.0.2"
+  },
+  "devDependencies": {
+    "webpack": "^5.85.0",
+    "webpack-cli": "^5.1.1"
   }
 }
