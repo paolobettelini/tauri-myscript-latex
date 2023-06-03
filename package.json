@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "mkdir -p dist && cp -R src/* dist && cp -R node_modules dist"
+    "build": "mkdir -p dist/scripts && cp -R src/* dist && cp -R node_modules/iink-js/dist dist/scripts/iink-js"
   },
   "author": "Paolo Bettelini",
   "license": "ISC",
