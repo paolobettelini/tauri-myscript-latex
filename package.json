@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --config webpack.config.js"
+    "build": "mkdir -p dist && cp -R src/* dist && cp -R node_modules dist"
   },
-  "author": "",
+  "author": "Paolo Bettelini",
   "license": "ISC",
   "dependencies": {
     "iink-js": "^2.0.2"
